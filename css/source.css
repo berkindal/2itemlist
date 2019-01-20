@@ -1,0 +1,45 @@
+.page-header {
+    display: flex;
+    text-align: center;
+    padding: 1em;
+    /* background-color: turquoise; */
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px gray;
+}
+
+.adding-item {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: yellow; */
+}
+
+.added-items-list{
+    display: flex;
+    /* background-color: red; */
+    
+}
+.email-button {
+    display: flex;
+    text-align: center;
+    padding: 1em;
+    justify-content: flex-end;
+    align-items: center; 
+    /* background-color: darkslateblue; */
+}
+
+.wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-rows: 3rem 2rem 30rem 2rem;
+    margin: auto; 
+    width: 90%;
+    background-color: whitesmoke;
+    border: 10px solid gray;
+  }
+
+ input[type=checkbox] {
+    zoom: 1.5;
+  }
